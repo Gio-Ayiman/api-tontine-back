@@ -2,7 +2,7 @@ package org.group.ventis.emftontine.utils;
 
 public final class Exceptions extends Throwable {
 
-    static class NullEntityId extends RuntimeException {
+    public static class NullEntityId extends RuntimeException {
         final ApiResponse apiResponse = new ApiResponse();
 
         public NullEntityId(long id) {

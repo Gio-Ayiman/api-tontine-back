@@ -14,6 +14,12 @@ public class Approvisionnement extends BaseEntity {
 
     public String etat;
 
+    @OneToMany(mappedBy = "approvisionnement")
+    public List<ArticleApprovisionne> articleApprovisionnes;
+
+    @OneToMany(mappedBy = "approvisionnement")
+    public List<ArticleAgenceApprovisionne> articleAgenceApprovisionnes;
+
     @Override
     public BaseEntity clone() {
         return null;
@@ -29,6 +35,5 @@ public class Approvisionnement extends BaseEntity {
 
     }
 
-    @OneToMany()
-     public List<ArticleApprovisionne> articleApprovisionnes;
+
 }

@@ -1,0 +1,3 @@
+2022-07-27 08:02:31,399 linux api-tontine-dev.jar[37595] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) File change detected: /home/giovanni/code/ventis/quarkus/api-tontine/src/main/resources/application.properties
+2022-07-27 08:02:31,411 linux api-tontine-dev.jar[37595] INFO  [io.qua.dep.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in application.properties.
+2022-07-27 08:02:31,434 linux api-tontine-dev.jar[37595] INFO  [io.quarkus] (Quarkus Main Thread) api-tontine stopped in 0.020s
